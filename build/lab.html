@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+ 	  <link rel="stylesheet" type="text/css" href="css/dothaiduong.css">
+	<title>Lab</title>
+</head>
+<body>
+ 	 		<div class="container-fluid container-lab">
+ 	 		
+                	<div class="fas fa-book text-primary"><strong><i>Lab1</i></strong></div></button>
+                	<div class="tabs">
+                		<ul class="nav nav-tabs" id="myTab" role="tablist">
+                			<li class="nav-item">
+                				<a class="nav-link active" id="one-tab" data-toggle="tab" href="#one" role="tab" aria-controls="One" aria-selected="true">Requirement</a>
+                			</li>
+                			<li>
+                				<a class="nav-link active" id="two-tab" data-toggle="tab" href="#two" role="tab" aria-controls="Two" aria-selected="true">Design</a>
+                			</li>
+                			<li>
+                				<a class="nav-link active" id="three-tab" data-toggle="tab" href="#three" role="tab" aria-controls="Three" aria-selected="true">Implement</a>
+                			</li>
+                		</ul>
+                    </div>
+                   
+                
+                		<table class="table table-bordered table-lg">
+                        <tr>
+                          <th class="table-primary">Số thứ tự</th>
+                          <th class="table-primary">Yêu cầu</th>
+                        </tr>
+                        <tr>
+                          <td>1</td>
+                          <td>Chọn một đối tượng bất kì trong thế giới thực, ví dụ như <STRONG>sinh viên, môn học, giảng viên,...</STRONG>Sau đó thiết kế chức năng quản lí đối tượng đó trên HTML bao gồm các tính năng thêm, xóa, sửa, tìm kiếm cho đối tượng đó
+                  Ví dụ, làm chức năng Quản lí sinh viên, bao gồm tính năng <i class="text-success">thêm, sửa, xóa, tìm kiếm </i>.<br> Chú ý: các thành viên trong nhóm không được chọn các đối tượng giống nhau.
+                  </td>
+                        </tr>
+                        <tr>
+                          <td>2</td>
+                          <td>
+                            Tạo 1 menu Lab1 trên website cá nhân(sử dụng thẻ a trong HTML) bao gồm các tab sau:<br>
+                              -Tab <i class="text-success">Requirement</i>: coppy lại nội dung của phần 1 ở trên (Yêu cầu) vào đây (và trình bày lại cho đẹp)<br>
+                              -Tab <i class="text-success"> Design</i>: để link tới các file sau đây:<br>
+                                + Thiết kế trên giấy(chụp lại ảnh) <br>
+                                + Chụp lại màn hình đã thiết kế trên HTML<br>
+                                +Tab<i class="text-success"> Implement</i>: là trang HTML của chức năng quản lí đó <br>
+                                                 sau khi làm xong upload toàn bộ lên website cá nhân trên firebase
+                          </td>
+                        </tr>
+                      </table>
+
+                    
+                	<div class="tab-pane fade active show" id="two" role="tabpannel" aria-labelledby="two-tab">
+                		<div class="mt-3 mb-2 title">
+                				<h3 class="title-1">Design</h3>
+                		</div>
+                		<div id="accordion">
+                			<div class="card">
+                				<div class="card-header">
+                					<a class="card-link active" data-toggle="collapse" data-target="#collapse1">
+                						
+                					</a>
+                					<br>
+                					<div id="collapse1" class="collapse show">
+                						    <span>Thiết kế trên giấy</span>
+
+                					<img src="image/design.jpg" width="500" height="500">
+                					</div>
+                				</div>
+                			</div>
+
+                		</div>
+                	</div>
+                	<div class="tab-pane fade active show" id="three" role="tabpannel" aria-labelledby="three-tab">
+                		<div class="mt-3 mb-2 title">
+                                        <h3 class="title-1">Implement</h3>
+                                    </div>
+                                    <div id="accordion1">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <div class="row">
+                                                    <div class="col-12"> <a class="card-link active" data-toggle="collapse" href="#collapse3">
+                                                            <span>Quản lý sinh viên
+                                                            </span></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="logo"></div>
+                                        <div class="container">
+                                            <h1 class="in" id="in">Thông tin sinh viên</h1>
+                                            <form>
+                                                <div class="form-group">
+                                                    <label for="masv">Mã SV:</label>
+                                                    <input type="text" class="form-control" id="masv" placeholder="Nhập Mã số sinh viên" name="MaSV">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="hoten">Họ và tên:</label>
+                                                    <input type="text" class="form-control" id="hoten" placeholder="Nhập Họ và tên" name="hoten">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="email">Email:</label>
+                                                    <input type="email" class="form-control" id="email" placeholder="Nhập Email" name="email">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="Namsinh">Năm sinh:</label>
+                                                    <input type="text" id="ngaysinh" placeholder="Nhập Ngày sinh" name="ngaysinh" size=25>
+                                                    <input type="text" id="thangsinh" placeholder="Nhập Tháng sinh" name="thangsinh" size=25>
+                                                    <input type="text" id="namsinh" placeholder="Nhập Năm sinh" name="namsinh" size=25>
+                                                </div>
+                                                 <div class="form-group">
+                                                    <label for="email">Quê quán:</label>
+                                                    <input type="text" class="form-control" id="quequan" placeholder="Nhập quê quán" name="quequan">
+                                                </div>
+                                                  <div class="form-group">
+                                                    <label for="email">Số điện thoại:</label>
+                                                    <input type="text" class="form-control" id="sdt" placeholder="Nhập SĐT" name="sdt">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="lop">Lớp:</label>
+                                                    <input type="text" class="form-control" id="email" placeholder="Lớp" name="lop">
+                                                </div>
+                                                <button type="button" class="btn btn-success">Thêm sinh viên</button>
+                                                <button type="button" class="btn btn-danger" onclick="LuuThongTin()">
+                                                    Lưu</button>
+                                            </form>
+                                        </div>
+                                        <!--table bootstrap 4 -->
+                                        <div class="clearfix"></div>
+                                        <br>
+                                        <div class="container">
+                                            <div class="right">
+                                                <div class="input-group">
+                                                    <input type="text" id="tukhoa" onkeyup="TimKiemSinhVien()" onchange="TimKiemSinhVien()" class="form-control" placeholder="Nhập vào họ tên ...">
+                                                    <span class="input-group-btn">
+                                                        <button class="btn btn-secondary" onclick="TimKiemSinhVien()" type="button">Tìm kiếm</button>
+                                                    </span>
+                                                </div>
+                                                <br>
+                                                <div class="alert alert-success" id="ThongBao"></div>
+                                            </div>
+                                            <h2 class="in">Danh sách sinh viên</h2>
+                                            <p> </p>
+                                            </div>
+                                            <div class="container-fluid">
+                                            <table id="TableSinhVien" class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Mã SV</th>
+                                                        <th>Họ và Tên</th>
+                                                        <th>Email</th>
+                                                        <th>Năm sinh</th>
+                                                        <th>Quê quán</th>
+                                                        <th>Số điện thoại</th>
+                                                        <th>Lớp</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody id="tbodySinhVien">
+                                                    <tr>
+                                                        <td>18130051@st.hcmuaf.edu.vn</td>
+                                                        <td>Đỗ Thái Dương</td>
+                                                        <td>duongdo.220820@gmail.com</td>
+                                                        <td>22/08/2000</td>
+                                                        <td>An Nghiệp, Tuy An, Phú Yên</td>
+                                                        <td>0364065209</td>
+                                                        <td>DH18DTC</td>
+                                                        <td><button>Edit</button>
+                                                            <button>Delete</button></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            </div>
+                                        
+ 	 			</div>
+ 	 		</div>
+ 	 	</div>
+ 	 		</div>
+</body>
+</html>

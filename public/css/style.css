@@ -1,0 +1,239 @@
+,. pbody {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    height:100%;
+}
+#profile{
+	float: left;
+}
+h1{
+	font-size: 30px;
+	padding-top: 20px;
+	font-style: italic;
+}
+h2 {
+	font-style: italic;
+	font-size:20px;
+	font-family: "Raleway", sans-serif;
+}
+#h2 {
+	padding-top: 20px;
+}
+
+#h3{
+	padding-top: 150px;
+}
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-repeat: no-repeat;
+}
+
+.container-fluid {
+  width: 100%;
+  height: 700px;
+  margin: auto;
+  text-align: left;
+}
+#hero-container .t0 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+    color:white;
+    text-transform: uppercase;
+    font-weight: 700;
+    animation: chu-Chay 2s forwards;
+    animation-delay: 1s;
+    letter-spacing: 0.6em;
+    font-style: italic;
+    box-sizing: border-box;
+}
+@-webkit-keyframes chu-Chay {
+  from{transform: opacity:0;
+        margin-left: -500px;
+      }
+    to{transform: opacity:1;}
+}
+#hero-container .t1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    color:white;
+    text-align: center;
+    animation: chu-Chay 2s forwards;
+    animation-delay: 1.5s;
+    font-weight: 500;
+    letter-spacing: 0.6em;
+    font-style: italic;
+    box-sizing: border-box;
+    padding-top: 80px;
+}
+.btn{ 
+  
+}
+.btn:hover{
+  opacity: 0.8;
+}
+#hero-container a {
+	   /* font-size: 30px;
+	   position: absolute;
+  	color: white;
+  	font-weight: bold;
+  	left: 50%;
+  	top: 50%;
+    margin-top:75px;
+    margin-left: -75px;
+		font-family: "none", serif;
+    color: #fff;   */
+    color: #313131;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s all;
+  border: 8px solid white;
+    font-style: italic;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform:translate(-50%,-50%);
+   animation: phong-to 2s forwards;
+   margin-top: 80px;
+   font-weight: 300;
+}
+#hero-container .hero {
+  width: 100%;
+  height: 80%;
+  color: #252525;
+  animation: phong-to 1s forwards;
+}
+#hero-container{
+  width: 100%;
+  height: 850px;
+  margin:0 auto;
+  background-size: cover;
+}
+@-webkit-keyframes phong-to {
+  from{transform: scale(0.7);}
+    to{transform: scale(1);}
+}
+.container {
+  /* Full width */
+  background-color: white; /* Grey background */
+}
+#main .col-lg-8 {
+  animation: chu-Chay-Trai 3s forwards;
+}
+@-webkit-keyframes chu-Chay-Trai {
+  from{transform: opacity:0;
+        margin-left: -500px;
+      }
+    to{transform: opacity:1;}
+}
+#nav{
+  width: 100%;
+  height: 71px;
+  background-color: #a72889;
+  display: block;
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.5); /*Đổ bóng cho menu*/
+  position: fixed; /*Cho menu cố định 1 vị trí với top và left*/
+  top: 0; /*Nằm trên cùng*/
+  left: 0; /*Nằm sát bên trái*/
+  z-index: 100000; /*Hiển thị lớp trên cùng*/
+  padding-left: 0px;
+}
+#nav ul{
+  	margin:0;
+    padding-left: 80px;
+}
+#nav ul li{
+  list-style:none inside;
+  width: auto;
+  float: left;
+  line-height: 35px; /*Cho text canh giữa menu*/
+  color: #fff;
+  padding: 0;
+  margin-right:10px;
+  position: relative;
+
+}
+#nav ul li a{
+  text-transform: uppercase;
+  white-space: nowrap; /*Cho chữ trong menu không bị wrap*/
+  padding: 0 10px;
+  color: #fff;
+  display: block;
+  font-size: 0.8em;
+  text-decoration: none;
+ 
+}
+#nav ul li ul {
+  position: absolute;
+  width: auto;
+  display: none;
+  padding-left: 5px;
+}
+
+#nav ul li ul li{
+  display: block;
+  padding:0;
+  margin: 0;
+  float: none; /*Bỏ float cho li cấp thứ 2*/
+}
+/* Hover cho submenu */
+#nav ul li:hover {
+  /* Hover thì li sẽ đổi màu*/
+  background-color: #212529;
+}
+#nav ul li a:hover {
+  /* Hover thì li sẽ đổi màu*/
+  background-color: #212529;
+}
+#nav ul li:hover ul{
+  /*Display ra submenu*/
+  display: block;
+}
+/*Không copy cái này, dùng tăng padding top bottom để demo cuộn*/	
+#skills #skill1 {
+  animation: chu-Chay-Phai 2s forwards;
+}
+@-webkit-keyframes chu-Chay-Phai {
+  from{transform: opacity:1;
+        margin-right: -500px;
+      }
+    to{transform: opacity:0;}
+}
+#about h2 {
+	padding-top: 88px;
+}
+#interest, #skills{
+    animation: chu-Chay 1.5s forwards;
+    padding-top:88px;
+}
+
+#interest h5 {
+	padding-top: 10px;
+}
+#contact{
+	padding-top: 88px;
+	float: center;
+  animation: chu-Chay 1.5s forwards;
+}
+#homework{
+   padding-top: 20px;
+}
+footer{
+  text-align: center;
+  background-color: powderblue;
+  font-style: italic;

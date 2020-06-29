@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/thaiduong2208/td2208/static/css/main.5f361e03.chunk.css",
+    "main.js": "/thaiduong2208/td2208/static/js/main.a9f9bf4a.chunk.js",
+    "main.js.map": "/thaiduong2208/td2208/static/js/main.a9f9bf4a.chunk.js.map",
+    "runtime-main.js": "/thaiduong2208/td2208/static/js/runtime-main.713ec7b6.js",
+    "runtime-main.js.map": "/thaiduong2208/td2208/static/js/runtime-main.713ec7b6.js.map",
+    "static/js/2.a26d0e9d.chunk.js": "/thaiduong2208/td2208/static/js/2.a26d0e9d.chunk.js",
+    "static/js/2.a26d0e9d.chunk.js.map": "/thaiduong2208/td2208/static/js/2.a26d0e9d.chunk.js.map",
+    "index.html": "/thaiduong2208/td2208/index.html",
+    "precache-manifest.3d59d6d12dc3c928db4a2e15e2b4cbe6.js": "/thaiduong2208/td2208/precache-manifest.3d59d6d12dc3c928db4a2e15e2b4cbe6.js",
+    "service-worker.js": "/thaiduong2208/td2208/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/thaiduong2208/td2208/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.a26d0e9d.chunk.js.LICENSE.txt": "/thaiduong2208/td2208/static/js/2.a26d0e9d.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/thaiduong2208/td2208/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.713ec7b6.js",
+    "static/js/2.a26d0e9d.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.a9f9bf4a.chunk.js"
+  ]
+}
